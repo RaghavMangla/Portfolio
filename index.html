@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=Kalam&family=Merriweather&family=Open+Sans&family=Playfair+Display:wght@400;700&family=Poppins&family=Russo+One&family=Titillium+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo"><span> My Portfolio</span></a>
+
+      <!-- icon -->
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello , It's Me</h3>
+        <h1><span>Raghav Mangla</span></h1>
+        <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+        <p>
+          I am a second year student at NSUT (course:Computer Science with
+          Specialization in AI)
+        </p>
+        <p>
+          Looking forward to learn new things and discover my true self in this
+          journey!!
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/raghav-mangla-516a61226/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/RaghavMangla7"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/raghav_mangla04/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <a href="RaghavMangla_Resume.pdf" class="btn btn1" id="download" download>Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/mine.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/mine.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p class="visible-content">
+          My skill stack includes HTML,CSS and JS and I am currently learning
+          ReactJS
+        </p>
+        <div class="invisible-content">
+          <p>
+            I am currently studying in second year at NSUT. I love competitive
+            programming and regularly practice on platforms like
+            Codeforces,Codechef,Leetcode,etc.I am also a Frontend developer and
+            am currently learning ReactJS.Apart from that my other hobbies are
+            playing soccer and listening music.
+          </p>
+        </div>
+        <button class="btn more" id="more">Read more</button>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/bh.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Weather Forecast Website</h4>
+            <p>
+              This website can show the real-time weather of any city that the
+              user enters.The API used is api-ninjas.com
+            </p>
+            <a href="https://weatherforecast01.netlify.app/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/education.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Education Website</h4>
+            <p>This project is a website design for an education platform.</p>
+            <a href="https://educateall.netlify.app/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/burger.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Food Delivery Website</h4>
+            <p>This project is a web design for a food delivery website</p>
+            <a href="https://fooddelivery01.netlify.app/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/gym.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Gym Registration Website</h4>
+            <p>This project is a web design for a gym registration website</p>
+            <a href="https://gym-registration-website.netlify.app/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio Website</h4>
+            <p>This website is my portfolio website</p>
+            <a href="#home"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/spotify.webp" alt="" />
+          <div class="portfolio-layer">
+            <h4>Spotify Clone</h4>
+            <p>
+              Spotify Clone using ReactJS,Tailwind CSS and FIREBASE as Backend.
+            </p>
+            <a href="https://github.com/RaghavMangla"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading"><span>Contact Details</span></h2>
+
+      <form
+        action="https://formsubmit.co/b5f99cccc22e60f32f5f36139445dd48"
+        method="POST"
+      >
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            name="Phone number"
+            placeholder="Mobile Number"
+          />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="btn btn3" >Send Message</button>
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>CopyRights &copy; 2023 by Raghav Mangla |All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        <p>Press arrow to return to home page</p>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
